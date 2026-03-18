@@ -1,11 +1,11 @@
 #include <iostream>
-#include "FSM.h"
+#include "Player.h"
+
 
 int main()
 {
-	UFSM WorldFSM;
-
-	WorldFSM.Draw(10,10);
+	APlayer MyPlayer;
+	
 
 	return 0;
 }

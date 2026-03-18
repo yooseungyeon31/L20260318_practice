@@ -5,7 +5,6 @@ public:
 	UWorld();
 	~UWorld();
 
-	int Wall; //º®
-	int Floor; //¹Ù´Ú
+
 };
 

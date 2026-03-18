@@ -123,14 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="FSM.h" />
-    <ClInclude Include="InWorld.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Wall.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FSM.cpp" />
-    <ClCompile Include="InWorld.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="Goal.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Wall.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
