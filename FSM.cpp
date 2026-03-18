@@ -21,14 +21,6 @@ UFSM::~UFSM()
 
 void UFSM::Draw(int Wall, int Floor)
 {
-	for (int i = 0; i < Wall; i++)
-	{
-		std::cout << "*" << std::endl;
 
-		for (int j = 0; j < Floor; j++)
-		{
-			std::cout << "*";
-		}
-	}
 
 }
